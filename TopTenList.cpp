@@ -32,7 +32,7 @@ void TopTenList::display_forward()
 }
 void TopTenList::display_backward()
 {
-    for (int i = 10; i >= 0; i--) {
+    for (int i = 9; i >= 0; i--) {
         cout << (i) + " " + _list[i].text << endl;
     }
 }
